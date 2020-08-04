@@ -1,5 +1,6 @@
-# proffy
-
+<p align="center"> 
+  <img src="/readme_assets/logo.svg" alt="Logo" width="300"/>
+</p>
 
 ## Conceitos aplicados
 - TSX - Typescript + XML
