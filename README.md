@@ -23,7 +23,8 @@
 
 - Manipluação de Banco de Dados com Knex
 - Endpoints com suporte a filtros
-- (Insomnia Import Button)
+
+[![Run in Insomnia}](https://insomnia.rest/images/run.svg)](https://insomnia.rest/run/?label=NLW%232%20-%20Proffy&uri=https%3A%2F%2Fgithub.com%2FVLRTroll%2Fproffy%2Fblob%2Fmaster%2F.github%2Fassets%2Finsomnia-export.json)
 
 
 <h2>Web App - ReactJS <img src="/.github/assets/react.webp" alt="React Logo" width="25"/></h2>
