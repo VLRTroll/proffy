@@ -11,7 +11,7 @@
 
 
 <p align="center">
-  <img src="https://img.shields.io/github/repo-size/VLRTroll/proffy?color=%238257e5" alt="GitHub repo size"/>
+  <img src="https://img.shields.io/github/repo-size/VLRTroll/proffy?color=04d361" alt="GitHub repo size"/>
 </p>
 
 <p align="center"> 
@@ -37,9 +37,12 @@
 (Comming soon)
 
 <h2>Figma Resources <img src="/readme_assets/figma.png" alt="Figma Logo" width="22"/></h2>
+  
+[<img src="https://img.shields.io/static/v1?style=for-the-badge&label=Download&logo=figma&logoColor=white&message=Web-Design&color=8257e5" alt="Web Design Badge"/>][web_design_link]
+[<img src="https://img.shields.io/static/v1?style=for-the-badge&label=Download&logo=figma&logoColor=white&message=Mobile-Design&color=04d361" alt="Mobile Design Badge"/>][mobile_design_link]
 
-- [Download Web Design](https://www.figma.com/file/GHGS126t7WYjnPZdRKChJF/Proffy-Web/duplicate)
-- [Download Mobile Design](https://www.figma.com/file/e33KvgUpFdunXxJjHnK7CG/Proffy-Mobile/duplicate)
+[web_design_link]: https://www.figma.com/file/GHGS126t7WYjnPZdRKChJF/Proffy-Web/duplicate
+[mobile_design_link]: https://www.figma.com/file/e33KvgUpFdunXxJjHnK7CG/Proffy-Mobile/duplicate
 
 ---
 
