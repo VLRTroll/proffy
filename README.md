@@ -19,18 +19,50 @@
 </p>
 
 
+
 <h2>REST API - NodeJS <img src="/.github/assets/nodejs.webp" alt="Node Logo" width="25"/></h2>
 
-- Manipluação de Banco de Dados com Knex
-- Endpoints com suporte a filtros
+- Endpoints with filter query params
+- Database management with Knex
+  - Database: SQLite 3
+  - Migrations and Transactions concepts used
+  - Time slot storage technique
+  
+### 🔌 How to run
+ 
+```bash
+ # Go to server folder
+> cd server
 
-[![Run in Insomnia}](https://insomnia.rest/images/run.svg)](https://insomnia.rest/run/?label=NLW%232%20-%20Proffy&uri=https%3A%2F%2Fgithub.com%2FVLRTroll%2Fproffy%2Fblob%2Fmaster%2F.github%2Fassets%2Finsomnia-export.json)
+# Install Dependencies
+> yarn or npm i
 
+# Start API server
+> yarn start or npm start
+```
+Test the API endpoints in Insomnia (configured to listen `http://localhost:3333/`):
+
+<p align="center">
+  <a href="https://insomnia.rest/run/?label=NLW%20%232%20-%20Proffy&uri=https%3A%2F%2Fgithub.com%2FVLRTroll%2Fproffy%2Fblob%2Fmaster%2F.github%2Fassets%2Finsomnia-export.json" target="_blank"><img src="https://insomnia.rest/images/run.svg" alt="Run in Insomnia"></a>
+</p>
 
 <h2>Web App - ReactJS <img src="/.github/assets/react.webp" alt="React Logo" width="25"/></h2>
 
 - TSX - Typescript + XML
-- Método Mobile First para construção de layouts responsivos
+- Responsive Layouts
+  - Mobile First Method
+
+### 💻 Run Web Project
+```bash
+# Go to web folder
+> cd web
+
+# Install Dependencies
+> yarn or npm i
+
+# Start Web Aplication
+> yarn start or npm start
+```
 
 
 <h2>Mobile App - React Native <img src="/.github/assets/react.webp" alt="React Native Logo" width="25"/></h2>
