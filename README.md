@@ -3,7 +3,8 @@
 </p>
 
 <p align="center">
-  <a href="#rest-api---nodejs-">REST API</a>
+  <a href="#abstract">Abstract</a>
+  • <a href="#rest-api---nodejs-">REST API</a>
   • <a href="#web-app---reactjs-">Web App</a>
   • <a href="#mobile-app---react-native-">Mobile App</a>
   • <a href="#figma-resources-">Figma Resources</a> 
@@ -14,8 +15,16 @@
   <img src="https://img.shields.io/github/repo-size/VLRTroll/proffy?color=04d361" alt="GitHub repo size"/>
 </p>
 
+
+
+## Abstract
+
+An online study platform where you schedule your own study hours. In Proffy you can find which teachers are available at the desired times, as well as their specialties. And once the teacher is chosen you can contact their in Whatsapp.
+
 <p align="center"> 
+  <br/><br/>
   <img src="/.github/assets/mockup.png" alt="Logo" width="900"/>
+  <br/><br/>
 </p>
 
 
@@ -46,13 +55,15 @@ Test the API endpoints in Insomnia (configured to listen `http://localhost:3333/
   <a href="https://insomnia.rest/run/?label=NLW%20%232%20-%20Proffy&uri=https%3A%2F%2Fgithub.com%2FVLRTroll%2Fproffy%2Fblob%2Fmaster%2F.github%2Fassets%2Finsomnia-export.json" target="_blank"><img src="https://insomnia.rest/images/run.svg" alt="Run in Insomnia"></a>
 </p>
 
+
+
 <h2>Web App - ReactJS <img src="/.github/assets/react.webp" alt="React Logo" width="25"/></h2>
 
 - TSX - Typescript + XML
 - Responsive Layouts
   - Mobile First Method
 
-### 💻 Run Web Project
+### 💻 How to run
 ```bash
 # Go to web folder
 > cd web
@@ -60,9 +71,10 @@ Test the API endpoints in Insomnia (configured to listen `http://localhost:3333/
 # Install Dependencies
 > yarn or npm i
 
-# Start Web Aplication
+# Start Web App
 > yarn start or npm start
 ```
+
 
 
 <h2>Mobile App - React Native <img src="/.github/assets/react.webp" alt="React Native Logo" width="25"/></h2>
