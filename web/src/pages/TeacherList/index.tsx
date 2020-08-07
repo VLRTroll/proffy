@@ -4,12 +4,12 @@ import PageHeader from '../../components/PageHeader';
 import TeacherItem, { Teacher } from '../../components/TeacherItem';
 import Input from '../../components/Input';
 import Select from '../../components/Select';
-import api from '../../services/api';
-
-import './style.css';
 import ClassService from '../../services/ClassService';
 
-function TeacherList() {
+import SearchIcon from '../../assets/images/icons/search.svg';
+import './styles.css';
+
+export default function TeacherList() {
 	const [teachers, setTeachers] = useState([]);
 
 	const [subject, setSubject] = useState('');
@@ -86,7 +86,9 @@ function TeacherList() {
 						}}
 					/>
 
-					<button type='submit'>Search</button>
+					<button type='submit'>
+						<img src={SearchIcon} alt='Busca' />
+					</button>
 				</form>
 			</PageHeader>
 			<main>
@@ -97,5 +99,3 @@ function TeacherList() {
 		</div>
 	);
 }
-
-export default TeacherList;

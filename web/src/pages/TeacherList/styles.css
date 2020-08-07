@@ -12,20 +12,24 @@
 }
 
 #search-teachers button {
+	flex-shrink: 1;
+	cursor: pointer;
+	transition: background-color 0.2s;
+
 	width: 100%;
 	height: 5.6rem;
 	background: var(--color-secundary);
-	color: var(--color-button-text);
+	margin-top: 3.2rem;
+
 	border: 0;
 	border-radius: 0.8rem;
-	cursor: pointer;
+
+	color: var(--color-button-text);
 	font: 700 1.6rem Archivo;
+
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	text-decoration: none;
-	transition: background-color 0.2s;
-	margin-top: 3.2rem;
 }
 
 #search-teachers button:hover {
@@ -44,7 +48,7 @@
 
 	#search-teachers {
 		display: grid;
-		grid-template-columns: repeat(4, 1fr);
+		grid-template-columns: repeat(3, 1fr) 5.6rem;
 		column-gap: 16px;
 		position: absolute;
 		bottom: -28px;
@@ -53,6 +57,11 @@
 	#search-teachers .input-block + .input-block,
 	#search-teachers .select-block + .select-block {
 		margin-top: 0;
+	}
+
+	#search-teachers button {
+		margin-top: 0;
+		align-self: end;
 	}
 
 	#page-teacher-list main {

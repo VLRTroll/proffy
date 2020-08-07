@@ -8,7 +8,7 @@ import purpleHeartIcon from '../../assets/images/icons/purple-heart.svg';
 import studyIcon from '../../assets/images/icons/study.svg';
 import landingImg from '../../assets/images/landing.svg';
 import logoImg from '../../assets/images/logo.svg';
-import './style.css';
+import './styles.css';
 
 export default function Landing() {
 	const [totalConnections, setTotalConnections] = useState(0);
