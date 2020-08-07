@@ -2,7 +2,6 @@ import React, { useState, FormEvent } from 'react';
 import PageHeader from '../../components/PageHeader';
 import Input from '../../components/Input';
 import Textarea from '../../components/Textarea';
-import Select from '../../components/Select';
 import { useHistory } from 'react-router-dom';
 
 import warningIcon from '../../assets/images/icons/warning.svg';
@@ -172,10 +171,10 @@ export default function TeacherForm() {
 					<footer>
 						<p>
 							<img src={warningIcon} alt='Warning' />
-							Warning! <br />
-							Fill all the fields
+							Cuidado! <br />
+							Preencha todos os campos
 						</p>
-						<button type='submit'>Sign Up</button>
+						<button type='submit'>Salvar</button>
 					</footer>
 				</form>
 			</main>
